@@ -9,9 +9,15 @@ import SwiftUI
 
 struct tasksView: View {
     var body: some View {
-        Text("This is the tasks view")
+        NavigationView {
+            Text("This is the tasks view")
+                .navigationTitle("Tasks")
+                .background(Color.blue)
+        }
     }
 }
+
+
 
 #Preview {
     tasksView()
