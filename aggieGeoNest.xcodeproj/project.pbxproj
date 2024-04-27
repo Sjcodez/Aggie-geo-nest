@@ -19,6 +19,9 @@
 		C5F0F16A2BDB28EA0021DA2C /* tabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0F1692BDB28EA0021DA2C /* tabMainView.swift */; };
 		C5F0F16C2BDB2ABD0021DA2C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0F16B2BDB2ABD0021DA2C /* MainView.swift */; };
 		C5F0F16E2BDB2B440021DA2C /* signinVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0F16D2BDB2B440021DA2C /* signinVIew.swift */; };
+		F23DAEC12BDC8E8300C055DB /* loginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DAEC02BDC8E8300C055DB /* loginView.swift */; };
+		F23DAEC32BDC935100C055DB /* LoginBackend.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DAEC22BDC935100C055DB /* LoginBackend.swift */; };
+		F23DAEC92BDC9C5000C055DB /* AdminDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23DAEC82BDC9C5000C055DB /* AdminDash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		C5F0F1692BDB28EA0021DA2C /* tabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabMainView.swift; sourceTree = "<group>"; };
 		C5F0F16B2BDB2ABD0021DA2C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C5F0F16D2BDB2B440021DA2C /* signinVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinVIew.swift; sourceTree = "<group>"; };
+		F23DAEC02BDC8E8300C055DB /* loginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginView.swift; sourceTree = "<group>"; };
+		F23DAEC22BDC935100C055DB /* LoginBackend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBackend.swift; sourceTree = "<group>"; };
+		F23DAEC82BDC9C5000C055DB /* AdminDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				C5F0F1692BDB28EA0021DA2C /* tabMainView.swift */,
 				C5F0F16D2BDB2B440021DA2C /* signinVIew.swift */,
 				C51644C22BDC83F10096F985 /* signUpView.swift */,
+				F23DAEC02BDC8E8300C055DB /* loginView.swift */,
+				F23DAEC82BDC9C5000C055DB /* AdminDash.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */,
+				F23DAEC22BDC935100C055DB /* LoginBackend.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -187,11 +196,14 @@
 			files = (
 				C5F0F1622BDB262D0021DA2C /* checkInView.swift in Sources */,
 				C5F0F16C2BDB2ABD0021DA2C /* MainView.swift in Sources */,
+				F23DAEC32BDC935100C055DB /* LoginBackend.swift in Sources */,
 				C51644C32BDC83F10096F985 /* signUpView.swift in Sources */,
 				C51644BE2BDC1ACC0096F985 /* login Button.swift in Sources */,
 				C5F0F16A2BDB28EA0021DA2C /* tabMainView.swift in Sources */,
+				F23DAEC12BDC8E8300C055DB /* loginView.swift in Sources */,
 				C5F0F1662BDB289A0021DA2C /* profileView.swift in Sources */,
 				C5F0F1522BDB25FC0021DA2C /* aggieGeoNestApp.swift in Sources */,
+				F23DAEC92BDC9C5000C055DB /* AdminDash.swift in Sources */,
 				C5F0F16E2BDB2B440021DA2C /* signinVIew.swift in Sources */,
 				C5F0F1642BDB28920021DA2C /* tasksView.swift in Sources */,
 				C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */,
