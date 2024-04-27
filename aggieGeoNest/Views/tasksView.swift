@@ -12,7 +12,7 @@ struct tasksView: View {
         NavigationView {
             Text("This is the tasks view")
                 .navigationTitle("Tasks")
-                .background(Color.blue)
+
         }
     }
 }
