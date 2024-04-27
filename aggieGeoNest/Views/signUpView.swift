@@ -9,6 +9,8 @@ import SwiftUI
 
 struct signUpView: View {
     @StateObject var viewModel = signUpViewViewModel()
+    @State var isVolunteer: Bool = false
+    @State var isResident: Bool = false
     
     var body: some View {
         ZStack {
@@ -38,30 +40,51 @@ struct signUpView: View {
                     .cornerRadius(50)
                     .shadow(radius: 40)
                     .padding()
+                TextField("Password", text: $viewModel.email)
+                    .font(.title3)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color(red: 0.9608, green: 0.9608, blue: 0.9373))
+                    .cornerRadius(50)
+                    .shadow(radius: 40)
+                    .padding()
                 HStack {
                     Spacer()
                     Button(action: {
-                        // action
+                        viewModel.userType = "Volunteer"
+                        isVolunteer = true
+                        isResident = false
                     }, label: {
-                        Text("Volunteer")
-                            .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
-                            
+                        if isVolunteer {
+                            Text("Volunteer")
+                                .foregroundStyle(Color.white)
+                        } else {
+                            Text("Volunteer")
+                                .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
+                        }
                     })
-                    .buttonStyle(.bordered)
+                    .buttonStyle(.borderedProminent)
                     Spacer()
                     Button(action: {
-                        // action
+                        viewModel.userType = "Resident"
+                        isVolunteer = false
+                        isResident = true
                     }, label: {
-                        Text("Resident")
-                            .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
+                        if isResident {
+                            Text("Resident")
+                                .foregroundStyle(Color.white)
+                        } else {
+                            Text("Resident")
+                                .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
+                        }
                     })
-                    .buttonStyle(.bordered)
+                    .buttonStyle(.borderedProminent)
                     Spacer()
                 }
+                login_Button(textColor: Color.white, text: "Sign Up", bgColor:  Color.black)
+                Spacer()
             }
-            .offset(y: 40)
-            
-            
+            .offset(y: 120)
         }
     }
 }

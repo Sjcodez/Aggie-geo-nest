@@ -10,7 +10,7 @@ import Foundation
 class signUpViewViewModel: ObservableObject {
     @Published var email = ""
     @Published var fullName = ""
-    @Published var phoneNum = -1
+    @Published var phoneNum = ""
     @Published var password = ""
     @Published var userType = ""
     

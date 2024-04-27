@@ -11,6 +11,13 @@
 		C51644C32BDC83F10096F985 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C22BDC83F10096F985 /* signUpView.swift */; };
 		C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */; };
 		C51644CC2BDC8C960096F985 /* volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644CB2BDC8C960096F985 /* volunteer.swift */; };
+		C51644CF2BDC979B0096F985 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C51644CE2BDC979B0096F985 /* FirebaseAnalytics */; };
+		C51644D12BDC979B0096F985 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = C51644D02BDC979B0096F985 /* FirebaseAnalyticsOnDeviceConversion */; };
+		C51644D32BDC979B0096F985 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C51644D22BDC979B0096F985 /* FirebaseAnalyticsSwift */; };
+		C51644D52BDC979B0096F985 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C51644D42BDC979B0096F985 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C51644D72BDC979B0096F985 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = C51644D62BDC979B0096F985 /* FirebaseAppCheck */; };
+		C51644D92BDCA0720096F985 /* logInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644D82BDCA0720096F985 /* logInView.swift */; };
+		C51644DD2BDCA5B30096F985 /* loginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644DC2BDCA5B30096F985 /* loginViewViewModel.swift */; };
 		C5F0F1522BDB25FC0021DA2C /* aggieGeoNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0F1512BDB25FC0021DA2C /* aggieGeoNestApp.swift */; };
 		C5F0F1562BDB25FD0021DA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0F1552BDB25FD0021DA2C /* Assets.xcassets */; };
 		C5F0F1592BDB25FD0021DA2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0F1582BDB25FD0021DA2C /* Preview Assets.xcassets */; };
@@ -27,6 +34,8 @@
 		C51644C22BDC83F10096F985 /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
 		C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewViewModel.swift; sourceTree = "<group>"; };
 		C51644CB2BDC8C960096F985 /* volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteer.swift; sourceTree = "<group>"; };
+		C51644D82BDCA0720096F985 /* logInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInView.swift; sourceTree = "<group>"; };
+		C51644DC2BDCA5B30096F985 /* loginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewViewModel.swift; sourceTree = "<group>"; };
 		C5F0F14E2BDB25FC0021DA2C /* aggieGeoNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aggieGeoNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F0F1512BDB25FC0021DA2C /* aggieGeoNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aggieGeoNestApp.swift; sourceTree = "<group>"; };
 		C5F0F1552BDB25FD0021DA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51644D32BDC979B0096F985 /* FirebaseAnalyticsSwift in Frameworks */,
+				C51644CF2BDC979B0096F985 /* FirebaseAnalytics in Frameworks */,
+				C51644D12BDC979B0096F985 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				C51644D72BDC979B0096F985 /* FirebaseAppCheck in Frameworks */,
+				C51644D52BDC979B0096F985 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +127,7 @@
 				C5F0F1652BDB289A0021DA2C /* profileView.swift */,
 				C5F0F1692BDB28EA0021DA2C /* tabMainView.swift */,
 				C5F0F16D2BDB2B440021DA2C /* signinVIew.swift */,
+				C51644D82BDCA0720096F985 /* logInView.swift */,
 				C51644C22BDC83F10096F985 /* signUpView.swift */,
 			);
 			path = Views;
@@ -122,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */,
+				C51644DC2BDCA5B30096F985 /* loginViewViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -142,6 +158,13 @@
 			dependencies = (
 			);
 			name = aggieGeoNest;
+			packageProductDependencies = (
+				C51644CE2BDC979B0096F985 /* FirebaseAnalytics */,
+				C51644D02BDC979B0096F985 /* FirebaseAnalyticsOnDeviceConversion */,
+				C51644D22BDC979B0096F985 /* FirebaseAnalyticsSwift */,
+				C51644D42BDC979B0096F985 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				C51644D62BDC979B0096F985 /* FirebaseAppCheck */,
+			);
 			productName = aggieGeoNest;
 			productReference = C5F0F14E2BDB25FC0021DA2C /* aggieGeoNest.app */;
 			productType = "com.apple.product-type.application";
@@ -170,6 +193,9 @@
 				Base,
 			);
 			mainGroup = C5F0F1452BDB25FC0021DA2C;
+			packageReferences = (
+				C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C5F0F14F2BDB25FC0021DA2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -202,10 +228,12 @@
 				C51644BE2BDC1ACC0096F985 /* login Button.swift in Sources */,
 				C5F0F16A2BDB28EA0021DA2C /* tabMainView.swift in Sources */,
 				C5F0F1662BDB289A0021DA2C /* profileView.swift in Sources */,
+				C51644D92BDCA0720096F985 /* logInView.swift in Sources */,
 				C5F0F1522BDB25FC0021DA2C /* aggieGeoNestApp.swift in Sources */,
 				C5F0F16E2BDB2B440021DA2C /* signinVIew.swift in Sources */,
 				C5F0F1642BDB28920021DA2C /* tasksView.swift in Sources */,
 				C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */,
+				C51644DD2BDCA5B30096F985 /* loginViewViewModel.swift in Sources */,
 				C51644CC2BDC8C960096F985 /* volunteer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +438,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C51644CE2BDC979B0096F985 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C51644D02BDC979B0096F985 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		C51644D22BDC979B0096F985 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		C51644D42BDC979B0096F985 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		C51644D62BDC979B0096F985 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C51644CD2BDC979B0096F985 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5F0F1462BDB25FC0021DA2C /* Project object */;
 }
