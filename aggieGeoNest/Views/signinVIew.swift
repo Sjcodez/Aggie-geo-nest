@@ -25,19 +25,12 @@ struct signinVIew: View {
     }
 }
 
-#Preview {
-    signinVIew()
+struct signinVIew_Previews: PreviewProvider {
+    static var previews: some View {
+        signinVIew()
+    }
 }
 
-struct ExtractedView: View {
-    var body: some View {
-        Text("Get started")
-            .font(.title3)
-            .fontWeight(.bold)
-            .foregroundColor(Color.black)
-            .frame(maxWidth: .infinity)
-            .padding()
-            .background(Color(red: 0.7176, green: 0.9098, blue: 0.7333))
-            .cornerRadius(50)
-    }
+#Preview {
+    signinVIew()
 }

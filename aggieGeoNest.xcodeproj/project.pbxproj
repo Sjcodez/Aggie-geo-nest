@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78A580B12BDC98F600988360 /* editProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A580B02BDC98F600988360 /* editProfileView.swift */; };
 		C51644BE2BDC1ACC0096F985 /* login Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644BD2BDC1ACC0096F985 /* login Button.swift */; };
 		C51644C32BDC83F10096F985 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C22BDC83F10096F985 /* signUpView.swift */; };
 		C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78A580B02BDC98F600988360 /* editProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileView.swift; sourceTree = "<group>"; };
 		C51644BD2BDC1ACC0096F985 /* login Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "login Button.swift"; sourceTree = "<group>"; };
 		C51644C22BDC83F10096F985 /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
 		C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewViewModel.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				C5F0F1692BDB28EA0021DA2C /* tabMainView.swift */,
 				C5F0F16D2BDB2B440021DA2C /* signinVIew.swift */,
 				C51644C22BDC83F10096F985 /* signUpView.swift */,
+				78A580B02BDC98F600988360 /* editProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				C5F0F1622BDB262D0021DA2C /* checkInView.swift in Sources */,
 				C5F0F16C2BDB2ABD0021DA2C /* MainView.swift in Sources */,
 				C51644C32BDC83F10096F985 /* signUpView.swift in Sources */,
+				78A580B12BDC98F600988360 /* editProfileView.swift in Sources */,
 				C51644BE2BDC1ACC0096F985 /* login Button.swift in Sources */,
 				C5F0F16A2BDB28EA0021DA2C /* tabMainView.swift in Sources */,
 				C5F0F1662BDB289A0021DA2C /* profileView.swift in Sources */,
