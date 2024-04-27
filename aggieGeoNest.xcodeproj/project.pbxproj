@@ -10,6 +10,7 @@
 		C51644BE2BDC1ACC0096F985 /* login Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644BD2BDC1ACC0096F985 /* login Button.swift */; };
 		C51644C32BDC83F10096F985 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C22BDC83F10096F985 /* signUpView.swift */; };
 		C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */; };
+		C51644CC2BDC8C960096F985 /* volunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51644CB2BDC8C960096F985 /* volunteer.swift */; };
 		C5F0F1522BDB25FC0021DA2C /* aggieGeoNestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F0F1512BDB25FC0021DA2C /* aggieGeoNestApp.swift */; };
 		C5F0F1562BDB25FD0021DA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0F1552BDB25FD0021DA2C /* Assets.xcassets */; };
 		C5F0F1592BDB25FD0021DA2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5F0F1582BDB25FD0021DA2C /* Preview Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		C51644BD2BDC1ACC0096F985 /* login Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "login Button.swift"; sourceTree = "<group>"; };
 		C51644C22BDC83F10096F985 /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
 		C51644C62BDC84C30096F985 /* signUpViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewViewModel.swift; sourceTree = "<group>"; };
+		C51644CB2BDC8C960096F985 /* volunteer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volunteer.swift; sourceTree = "<group>"; };
 		C5F0F14E2BDB25FC0021DA2C /* aggieGeoNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aggieGeoNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F0F1512BDB25FC0021DA2C /* aggieGeoNestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aggieGeoNestApp.swift; sourceTree = "<group>"; };
 		C5F0F1552BDB25FD0021DA2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 			path = iitemViews;
 			sourceTree = "<group>";
 		};
+		C51644CA2BDC8C790096F985 /* userObjects */ = {
+			isa = PBXGroup;
+			children = (
+				C51644CB2BDC8C960096F985 /* volunteer.swift */,
+			);
+			path = userObjects;
+			sourceTree = "<group>";
+		};
 		C5F0F1452BDB25FC0021DA2C = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		C5F0F1502BDB25FC0021DA2C /* aggieGeoNest */ = {
 			isa = PBXGroup;
 			children = (
+				C51644CA2BDC8C790096F985 /* userObjects */,
 				C51644BC2BDC1AB70096F985 /* iitemViews */,
 				C5F0F1602BDB260F0021DA2C /* viewModels */,
 				C5F0F1512BDB25FC0021DA2C /* aggieGeoNestApp.swift */,
@@ -195,6 +206,7 @@
 				C5F0F16E2BDB2B440021DA2C /* signinVIew.swift in Sources */,
 				C5F0F1642BDB28920021DA2C /* tasksView.swift in Sources */,
 				C51644C72BDC84C30096F985 /* signUpViewViewModel.swift in Sources */,
+				C51644CC2BDC8C960096F985 /* volunteer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -38,7 +38,28 @@ struct signUpView: View {
                     .cornerRadius(50)
                     .shadow(radius: 40)
                     .padding()
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        // action
+                    }, label: {
+                        Text("Volunteer")
+                            .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
+                            
+                    })
+                    .buttonStyle(.bordered)
+                    Spacer()
+                    Button(action: {
+                        // action
+                    }, label: {
+                        Text("Resident")
+                            .foregroundStyle(Color(red: 0.3294, green: 0.3294, blue: 0.3294))
+                    })
+                    .buttonStyle(.bordered)
+                    Spacer()
+                }
             }
+            .offset(y: 40)
             
             
         }

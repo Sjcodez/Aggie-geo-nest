@@ -12,6 +12,7 @@ class signUpViewViewModel: ObservableObject {
     @Published var fullName = ""
     @Published var phoneNum = -1
     @Published var password = ""
+    @Published var userType = ""
     
     init() {}
     
