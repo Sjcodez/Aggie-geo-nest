@@ -7,7 +7,21 @@
 
 import Foundation
 
+
 class volunteer: ObservableObject {
     
     
 }
+
+//class Volunteer: User {
+//    @Published var hoursLogged: Int
+//
+//    init(username: String, password: String, email: String, hoursLogged: Int) {
+//        self.hoursLogged = hoursLogged
+//        super.init(username: username, password: password, email: email)
+//    }
+//
+//    func logHours(hours: Int) {
+//        hoursLogged += hours
+//    }
+//}
