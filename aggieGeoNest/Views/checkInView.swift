@@ -9,7 +9,11 @@ import SwiftUI
 
 struct checkInView: View {
     var body: some View {
-        Text("This is the checkin view")
+        NavigationView {
+            Text("This is the checkin view")
+                .navigationTitle("Aggie Geo Nest")
+        }
+        
     }
 }
 
